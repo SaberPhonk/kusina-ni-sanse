@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Menu</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-image: url("menubg.jpg");
+            background-size: cover;
+        }
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            margin: 0 auto;
+            max-width: 1000px;
+            padding: 20px;
+        }
+        .menu-item {
+            background-color: #f5f5f5;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            margin: 10px;
+            padding: 20px;
+            width: 45%;
+        }
+        .menu-item img {
+            border-radius: 100px;
+            max-width: 80%;
+        }
+        .menu-item h2 {
+            font-size: 1.5em;
+            margin: 0 0 10px;
+        }
+        .menu-item p {
+            font-size: 1.2em;
+            margin: 0;
+        }
+        .left-column {
+            flex-basis: 50%;
+        }
+        .right-column {
+            flex-basis: 50%;
+        }
+        .header {
+            text-align: center;
+            margin-bottom: 30px;
+            color: #fff;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.8);
+        }
+        .contact-details {
+            background-color: #E1C466;
+            border-radius: 50x;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            margin: 10px;
+            padding: 20px;
+            text-align: center;
+            color: #555;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1 style="color: black">Kusina ni Sanse</h1>
+        <h3 style="color: black">Delicious & Authentic Filipino Cuisine</h3>
+    </div>
+    <div class="container">
+        <div class="left-column">
+            <div class="menu-item">
+                <img src="dish1.jpg" alt="Dish 1">
+                <h2>Lumpiang Sariwa</h2>
+                <p>Fresh vegetable spring rolls served with a savory peanut sauce</p>
+                <h3 style="color: green">Price: Php 30 per piece</h3>
+            </div>
+        <div class="menu-item">
+                <img src="dish2.jpg" alt="Dish 1">
+                <h2>Pork Barbeque</h2>
+                <p>Grilled skewers of marinated meat, usually pork or chicken, served with a flavorful dipping sauce </p>
+                <h3 style="color: green">Price: Php 50 per skewers</h3>
+            </div>
+        <div class="menu-item">
+                <img src="dish3.jpg" alt="Dish 1">
+                <h2>Kare-Kare</h2>
+                <p>A rich and creamy peanut-based stew with tender beef and vegetables</p>
+                <h3 style="color: green">Price: Php 200 per serving</h3>
+            </div>
+        <div class="menu-item">
+                <img src="dish4.png" alt="Dish 1">
+                <h2>Pork Sinigang</h2>
+                <p>A sour and savory soup with a variety of vegetables and your choice of meat </p>
+                <h3 style="color: green">Price: Php 175 per serving</h3>
+            </div>
+            <!-- Repeat the menu-item div for each dish -->
+        </div>
+        <div class="right-column">
+            <div class="menu-item">
+                <img src="dish5.jpg" alt="Dish 5">
+                <h2>Pork Adobo</h2>
+                <p>Tender marinated meat cooked in soy sauce, vinegar, and spices</p>
+
+                <h3 style="color: green">Price: Php 150 per serving</h3>
+            </div>
+        <div class="menu-item">
+                <img src="dish6.jpg" alt="Dish 5">
+                <h2>Ginataang Bilo-Bilo</h2>
+                <p>A sweet and creamy dessert soup made with sticky rice balls, coconut milk, and various fruits </p>
+                <h3 style="color: green">Price: Php 80 per serving</h3>
+            </div>
+        <div class="menu-item">
+                <img src="dish7.jpg" alt="Dish 5">
+                <h2>Banana Turon</h2>
+                <p>Sweet banana wrapped in crispy spring roll wrapper, deep-fried, and drizzled with caramel sauce</p>
+                <h3 style="color: green">Price: Php 30 per piece</p>
+            </div>
+        <div class="menu-item">
+                <img src="dish8.jpg" alt="Dish 5">
+                <h2>Buko Salad</h2>
+                <p>A refreshing dessert made with young coconut meat, fruits, and cream</p>
+                <h3 style="color: green">Price: Php 75 per serving</h3>
+            </div>
+            <!-- Repeat the menu-item div for each dish -->
+        </div>
+    </div>
+    <div class="contact-details">
+        <h2>Contact Details</h2>
+        <p>Address: #24 Intimate Rosario Pasig City</p>
+        <p>Phone: (123) 456-7890</p>
+        <p>Email: kusinanisanse@gmail.com</p>
+    </div>
+</body>
+</html>
